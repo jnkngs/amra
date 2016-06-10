@@ -3,8 +3,6 @@ node_modules
 bower_components
 .idea
 *.log
-dist/
-features/
 src/ecsys/libs/
 *~
 *.swp
