@@ -1,0 +1,28 @@
+{
+  "name": "amra",
+  "authors": [
+    "Jani Kangas <jnkngs@gmail.com>"
+  ],
+  "description": "roguelike fantasy game",
+  "main": "amra.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "roguelike",
+    "component",
+    "entity",
+    "system",
+    "fantasy",
+    "game"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

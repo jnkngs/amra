@@ -1,0 +1,30 @@
+{
+  "name": "amra",
+  "version": "0.0.1",
+  "description": "roguelike fantasy game",
+  "main": "amra.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "roguelike",
+    "component",
+    "entity",
+    "system",
+    "fantasy",
+    "game"
+  ],
+  "author": "Jani Kangas <jnkngs@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cucumber": "^1.0.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-cucumber": "^0.3.0"
+  }
+}

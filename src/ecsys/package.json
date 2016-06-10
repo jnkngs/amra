@@ -1,0 +1,14 @@
+{
+  "name": "ecsys",
+  "description": "Entity-Component System",
+  "version": "0.1",
+  "author": "Jani Kangas",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-cucumber": "^0.3.0",
+    "grunt-jasmine-node": "^0.3.1"
+  }
+}
