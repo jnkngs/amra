@@ -7,3 +7,5 @@ src/ecsys/libs/
 *~
 *.swp
 *.swo
+.vscode
+jsconfig.json

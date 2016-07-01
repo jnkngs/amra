@@ -1,0 +1,81 @@
+[
+    {
+        "name": "location",
+        "data": {
+            "x": "integer",
+            "y": "integer",
+            "z": "integer"
+        }
+    },
+    {
+        "name": "movement",
+        "data": {
+            "dx": "integer",
+            "dy": "integer",
+            "dz": "integer"
+        }
+    },
+    {
+        "name": "amount",
+        "data": {
+            "value": "integer"
+        }
+    },
+    {
+        "name": "weight",
+        "data": {
+            "value": "integer"
+        }
+    },
+    {
+        "name": "damage",
+        "data": {
+            "min": "integer",
+            "max": "integer"
+        }
+    },
+    {
+        "name": "armourclass",
+        "data": {
+            "value": "integer"
+        }
+    },
+    {
+        "name": "tohit",
+        "data": {
+            "value": "integer"
+        }
+    },
+    {
+        "name": "hitpoints",
+        "data": {
+            "value": "integer"
+        }
+    },
+    {
+        "name": "regeneration",
+        "data": {
+            "value": "integer"
+        }
+    },
+    {
+        "name": "hunger",
+        "data": {
+            "value": "integer"
+        }
+    },
+    {
+        "name": "foodvalue",
+        "data": {
+            "value": "integer"
+        }
+    },
+    {
+        "name": "glyph",
+        "data": {
+            "char": "string",
+            "foreground": "string",
+            "background": "string"
+        }
+    }
+]

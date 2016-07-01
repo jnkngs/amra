@@ -1,0 +1,43 @@
+[
+    {
+        "name":"player",
+        "componentents": []
+    },
+    {
+        "name":"goldcoins",
+        "componentents": []
+    },
+    {
+        "name":"ham",
+        "componentents": []
+    },
+    {
+        "name":"orc",
+        "componentents": []
+    },
+    {
+        "name":"troll",
+        "componentents": []
+    },
+    {
+        "name":"goblin",
+        "componentents": []
+    },
+    {
+        "name":"bat",
+        "componentents": []
+    },
+    {
+        "name":"sword",
+        "componentents": []
+    },
+    {
+        "name":"leatherarmour",
+        "componentents": []
+    },
+    {
+        "name":"shield",
+        "componentents": []
+    }
+
+]
