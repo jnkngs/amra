@@ -19,7 +19,7 @@ module.exports = function(grunt) {
                 stripBanners: true
             },
             dist: {
-                src: ['src/**/*.js'],
+                src: ['src/ecsys/dist/ecsys.js', 'src/game/**/*.js'],
                 dest: 'dist/<%= pkg.name %>.js'
             }
         },

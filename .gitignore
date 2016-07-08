@@ -9,3 +9,4 @@ src/ecsys/libs/
 *.swo
 .vscode
 jsconfig.json
+dist

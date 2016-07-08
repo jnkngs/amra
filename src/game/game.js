@@ -55,7 +55,7 @@ window.onload = function() {
     }
     else {
         Game.init();
-        document.appendChild(Game.getDisplay().getContainer());
-        Game.swithScreen(Game.Screen.startScreen);
+        document.body.appendChild(Game.getDisplay().getContainer());
+        Game.switchScreen(startScreen);
     }
 }
