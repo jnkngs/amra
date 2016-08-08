@@ -18,7 +18,7 @@ var startScreen = {
         // When [Enter] is pressed, go to the play screen
         if (inputType === 'keydown') {
             if (inputData.keyCode === ROT.VK_RETURN) {
-                Game.switchScreen(Game.Screen.playScreen);
+                Game.switchScreen(gameScreen);
             }
         }
     }

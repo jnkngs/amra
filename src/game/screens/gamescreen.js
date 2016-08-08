@@ -4,7 +4,7 @@
 
 var gameScreen = {
     enter: function() {
-        console.log("Entered game screen.");
+        //TODO: initialize game systems
     },
     exit: function() { console.log("Exited game screen."); },
     render: function(display) {
