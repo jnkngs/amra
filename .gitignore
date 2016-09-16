@@ -10,3 +10,4 @@ src/ecsys/libs/
 .vscode
 jsconfig.json
 dist
+sandbox/
