@@ -1,6 +1,9 @@
 /**
  * Created by kangaja on 18.5.2016.
  */
+
+
+
 function DuplicateSystemError(message) {
     this.message = message;
     this.name = 'DuplicateSystemException';
@@ -39,3 +42,10 @@ function SystemManager(parent) {
 
     };
 };
+
+SystemManager.prototype = new Observer();
+SystemManager.prototype.notify = function(args){
+    console.log('* SystemManager starting system updates...');
+    this.updateSystems(args);
+};
+
