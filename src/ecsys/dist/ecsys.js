@@ -1,4 +1,4 @@
-/*! ecsys - v0.0.1 - 2016-05-23*/
+/*! ecsys - v0.1 - 2016-09-19*/
 function Entity() {
     var _getRandomId = function(){
         return Math.floor(Math.random() * (1000000 -1)) +1;
@@ -29,7 +29,7 @@ function EntityManager() {
 
     this.getDatabase = function() {
         return this._database;
-    }
+    };
     this.getEntityCount = function() {
         if(Object.keys(this._database).length === 0) {
             return 0;
@@ -136,5 +136,30 @@ function SystemManager(parent) {
     };
     this.updateSystems = function(deltaTime) {
 
+    };
+};
+
+SystemManager.prototype = new Observer();
+SystemManager.prototype.notify = function(args){
+    console.log('* SystemManager starting system updates...');
+    this.updateSystems(args);
+};
+
+
+var Observable = function () {
+    this._observers = [];
+    this.registerObserver = function(observer) {
+        this._observers.push(observer);
+    };
+    this.notifyObservers = function(args) {
+        for(var i = 0; i < this._observers.length; i++) {
+            this._observers[i].notify(args);
+        }
+    };
+};
+
+var Observer = function (params) {
+    this.notify = function(args) {
+        console.log('default implementation');
     };
 };
