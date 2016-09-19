@@ -7,7 +7,7 @@ function EntityManager() {
 
     this.getDatabase = function() {
         return this._database;
-    }
+    };
     this.getEntityCount = function() {
         if(Object.keys(this._database).length === 0) {
             return 0;
