@@ -5,8 +5,18 @@
     <title>Amra</title>
 </head>
 <body>
-    <script src="bower_components/rot.js/rot.js"></script>
-    <script src="bower_components/sprintf/dist/sprintf.min.js"></script>
-    <script src="dist/amra.js"></script>
+    <div id="output"></div>
+    <canvas id="canvas" width="240" height="176"></canvas>
+
+    <script src="src/ecsys/dist/ecsys.js"></script>
+    <script src="src/utils/observer.js"></script>
+    <script src="src/gamecontroller.js"></script>
+    <script src="src/game.js"></script>
+    <script>
+        window.addEventListener('load', function() {
+            amra.init();
+            amra.start();
+        });
+    </script>
 </body>
 </html>
