@@ -45,5 +45,8 @@ var GameController = function(systemmanager) {
                     break;
             }
         }
+        //self.notifyObservers('up');
     }
 };
+
+InputController.prototype = new Observable();

@@ -14,7 +14,7 @@ var Observable = function () {
 };
 
 var Observer = function (params) {
-    this.notify = function(args) {
+    this.notify = function(params) {
         console.log('default implementation');
     };
 };
